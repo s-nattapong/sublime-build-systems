@@ -1,0 +1,6 @@
+{
+    "cmd": ["gnome-terminal -x bash -c \"python -u $file; echo;echo;echo; echo Enter to exit... ; read line; exit; exec bash\""],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python",
+    "shell": true
+}
